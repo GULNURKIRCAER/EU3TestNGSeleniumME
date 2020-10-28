@@ -1,0 +1,10 @@
+some text here
+Create resources
+1.Right click on test (NOT TESTS)
+2.New->Directory
+3.Choose resources or type:resources
+4.OK
+Create a test file
+1.Right click on resources
+2.New->File
+3.name: testfile.txt
