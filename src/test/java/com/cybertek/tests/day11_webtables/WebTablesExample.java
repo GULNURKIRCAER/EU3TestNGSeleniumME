@@ -93,6 +93,7 @@ public class WebTablesExample {
     public void getSingleCellByIndex() {
 
        WebElement singleCell = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[3]/td[5]"));
+        System.out.println(singleCell.getText());
     }
     @Test
     public void printAllCellByIndex() {

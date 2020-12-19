@@ -41,20 +41,23 @@ public class PopupsAndAlerts {
         driver.get("http://practice.cybertekschool.com/javascript_alerts");
 
         //click Click For JS Alert Button
-        // driver.findElement(By.xpath("//button[1]")).click();
+        driver.findElement(By.xpath("//button[1]")).click();
 
         //switch to JS alert pop up
         Alert alert = driver.switchTo().alert();
         Thread.sleep(2000);
+        System.out.println(alert.getText());
         alert.accept();
 
         //click for JS confirm
         driver.findElement(By.xpath("//button[2]")).click();
         Thread.sleep(2000);
+        System.out.println(alert.getText());
         alert.dismiss();
 
         //click for JS Prompt
         driver.findElement(By.xpath("//button[3]")).click();
+        System.out.println(alert.getText());
         //send keys to JS Prompt
         alert.sendKeys("MikeSmith");
         //click OK
