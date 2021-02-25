@@ -18,6 +18,7 @@ import java.util.Set;
         @BeforeMethod
         public void setUp(){
             driver = WebDriverFactory.getDriver("chrome");
+
         }
 
         @AfterMethod

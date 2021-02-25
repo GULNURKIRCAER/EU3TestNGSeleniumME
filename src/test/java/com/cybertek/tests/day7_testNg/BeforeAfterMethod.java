@@ -2,6 +2,8 @@ package com.cybertek.tests.day7_testNg;
 
 import org.testng.annotations.*;
 
+import java.util.Arrays;
+
 public class BeforeAfterMethod {
     @BeforeClass
     public void setUpClass(){
@@ -37,4 +39,5 @@ public class BeforeAfterMethod {
         System.out.println("--AFTER CLASS--");
         System.out.println("Some Reporting Code Here");
     }
+
 }

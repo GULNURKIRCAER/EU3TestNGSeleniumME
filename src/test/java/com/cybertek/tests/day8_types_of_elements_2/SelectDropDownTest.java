@@ -55,37 +55,39 @@ public class SelectDropDownTest {
 
         Select stateDropdown = new Select(dropdownElement);
 
-        String expectedOption="Select a State";
+        //String expectedOption="Select a State";
 
-        String actualOption=stateDropdown.getFirstSelectedOption().getText();
+        //String actualOption=stateDropdown.getFirstSelectedOption().getText();
 
-        Assert.assertEquals(actualOption,expectedOption,"verify first selection");
+        //System.out.println("actualOption = " + actualOption);
+
+        //Assert.assertEquals(actualOption,expectedOption,"verify first selection");
 
         //HOW TO SELECT OPTIONS FROM DROPDOWN ?
         //1.SELECT USING VISIBLE TEXT
         Thread.sleep(2000);
         stateDropdown.selectByVisibleText("Virginia");
 
-        expectedOption = "Virginia";
-        actualOption = stateDropdown.getFirstSelectedOption().getText();
-        Assert.assertEquals(actualOption,expectedOption,"verify first selection");
-
-        //2.SELECT USING TEXT
-        Thread.sleep(2000);
-        stateDropdown.selectByIndex(51);
-
-        expectedOption = "Wyoming";
-        actualOption = stateDropdown.getFirstSelectedOption().getText();
-        Assert.assertEquals(actualOption,expectedOption,"verify first selection");
-        Thread.sleep(2000);
-
-        //3.SELECT USING BY VALUE
-        stateDropdown.selectByValue("TX");
-        Thread.sleep(2000);
-
-        expectedOption = "Texas";
-        actualOption = stateDropdown.getFirstSelectedOption().getText();
-        Assert.assertEquals(actualOption,expectedOption,"verify first selection");
+//        expectedOption = "Virginia";
+//        actualOption = stateDropdown.getFirstSelectedOption().getText();
+//        Assert.assertEquals(actualOption,expectedOption,"verify first selection");
+//
+//        //2.SELECT USING TEXT
+//        Thread.sleep(2000);
+//        stateDropdown.selectByIndex(51);
+//
+//        expectedOption = "Wyoming";
+//        actualOption = stateDropdown.getFirstSelectedOption().getText();
+//        Assert.assertEquals(actualOption,expectedOption,"verify first selection");
+//        Thread.sleep(2000);
+//
+//        //3.SELECT USING BY VALUE
+//        stateDropdown.selectByValue("TX");
+//        Thread.sleep(2000);
+//
+//        expectedOption = "Texas";
+//        actualOption = stateDropdown.getFirstSelectedOption().getText();
+//        Assert.assertEquals(actualOption,expectedOption,"verify first selection");
 
     }
 }
