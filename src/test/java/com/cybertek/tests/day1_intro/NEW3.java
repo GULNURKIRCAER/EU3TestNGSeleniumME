@@ -6,7 +6,7 @@ public class NEW3 {
 
         String sentence = "We test coders. Give us a try?";
         String basePhrase = "Forget  CVs..Save time . x x";
-        System.out.println(solution(basePhrase));
+        System.out.println(solution(sentence));
     }
     public static int solution(String S) {
         String[] sentences = S.split("[.?!]");

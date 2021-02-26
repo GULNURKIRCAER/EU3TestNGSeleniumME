@@ -23,7 +23,6 @@ public class new4 {
             if(letters.length == 0){
                 return false;
             }
-
             if (!word[1].contains(".com")){
                 return false;
             }

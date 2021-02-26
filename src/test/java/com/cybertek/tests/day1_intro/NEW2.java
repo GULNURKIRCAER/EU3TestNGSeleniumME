@@ -8,9 +8,9 @@ public class NEW2 {
         String T = "MSSLS";
         String K = "LLMS";
         String L = "SMS";
-        System.out.println(getSmall(L));
+        System.out.println(solution(L));
     }
-    public static String getSmall(String A) {
+    public static String solution(String A) {
 
         char [] tChar=A.toCharArray();
         Arrays.sort(tChar);
