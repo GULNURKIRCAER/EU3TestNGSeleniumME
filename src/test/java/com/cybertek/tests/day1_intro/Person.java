@@ -10,40 +10,40 @@ public class Person {
             private String firstName;
             private String lastName;
 
-            public int getId() {
-                return id;
-            }
+    public String getLastName() {
+        return lastName;
+    }
 
-            public void setId(int id) {
-                this.id = id;
-            }
+    public int getId() {
+        return id;
+    }
 
-            public String getFirstName() {
-                return firstName;
-            }
+    public void setId(int id) {
+        this.id = id;
+    }
 
-            public void setFirstName(String firstName) {
-                this.firstName = firstName;
-            }
+    public String getFirstName() {
+        return firstName;
+    }
 
-            public String getLastName() {
-                return lastName;
-            }
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
-            public void setLastName(String lastName) {
-                this.lastName = lastName;
-            }
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 
-            @Override
-            public String toString() {
-                return "Person{" +
-                        "id=" + id +
-                        ", firstName='" + firstName + '\'' +
-                        ", lastName='" + lastName + '\'' +
-                        '}';
-            }
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
 
-            public static void main(String[] args) {
+    public static void main(String[] args) {
 
                 List<Person> list = new ArrayList<Person>();
                 Person person = new Person();
