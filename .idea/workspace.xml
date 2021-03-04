@@ -23,13 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3b3e31b-025c-48b5-b889-4267a7cc43cd" name="Default Changelist" comment="all">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/NEW6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/new7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/NEW2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/NEW2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/NEW3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/NEW3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/new4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day1_intro/new4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day1_intro/NEW2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day1_intro/NEW2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day1_intro/NEW3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day1_intro/NEW3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,20 +79,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NEW6">
-    <configuration name="NEW2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day1_intro.NEW2" />
-      <module name="EU3TestNGSeleniumME" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day1_intro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Person">
     <configuration name="NEW3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day1_intro.NEW3" />
       <module name="EU3TestNGSeleniumME" />
@@ -123,20 +106,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelUtilsDemo.readExcelFile" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day1_intro.Person" />
       <module name="EU3TestNGSeleniumME" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day16_ddf.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day1_intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_ddf" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_ddf.ExcelUtilsDemo" />
-      <option name="METHOD_NAME" value="readExcelFile" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="new7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day1_intro.new7" />
+      <module name="EU3TestNGSeleniumME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day1_intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Person" />
+        <item itemvalue="Application.new7" />
         <item itemvalue="Application.NEW6" />
         <item itemvalue="TestNG.com.cybertek.tests.day1_intro" />
         <item itemvalue="Application.NEW3" />
-        <item itemvalue="Application.NEW2" />
-        <item itemvalue="TestNG.ExcelUtilsDemo.readExcelFile" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614261651698</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="all">
+      <created>1614374545507</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614374545508</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,43 +229,44 @@
     <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="147" key="GridCell.Tab.0.bottom" timestamp="1614369897909">
-      <screen x="0" y="23" width="1280" height="727" />
+    <state width="1238" height="173" key="GridCell.Tab.0.bottom" timestamp="1614880977777">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="174" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614286735884" />
-    <state width="1238" height="174" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1614346755941" />
+    <state width="1238" height="173" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1614880977777" />
+    <state width="1238" height="147" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1614374556369" />
     <state width="1238" height="147" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1614369897909" />
-    <state width="1238" height="147" key="GridCell.Tab.0.center" timestamp="1614369897908">
-      <screen x="0" y="23" width="1280" height="727" />
+    <state width="1238" height="173" key="GridCell.Tab.0.center" timestamp="1614880977775">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="174" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1614286735882" />
+    <state width="1238" height="173" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1614880977775" />
     <state width="1238" height="174" key="GridCell.Tab.0.center/0.23.1280.726@0.0.1280.749" timestamp="1614123640105" />
-    <state width="1238" height="174" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1614346755940" />
+    <state width="1238" height="147" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1614374556369" />
     <state width="1238" height="147" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1614369897908" />
-    <state width="1238" height="147" key="GridCell.Tab.0.left" timestamp="1614369897907">
-      <screen x="0" y="23" width="1280" height="727" />
+    <state width="1238" height="173" key="GridCell.Tab.0.left" timestamp="1614880977775">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="174" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1614286735880" />
-    <state width="1238" height="174" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1614346755940" />
+    <state width="1238" height="173" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1614880977775" />
+    <state width="1238" height="147" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1614374556368" />
     <state width="1238" height="147" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1614369897907" />
-    <state width="1238" height="147" key="GridCell.Tab.0.right" timestamp="1614369897908">
-      <screen x="0" y="23" width="1280" height="727" />
+    <state width="1238" height="173" key="GridCell.Tab.0.right" timestamp="1614880977776">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="174" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1614286735883" />
-    <state width="1238" height="174" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1614346755940" />
+    <state width="1238" height="173" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1614880977776" />
+    <state width="1238" height="147" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1614374556369" />
     <state width="1238" height="147" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1614369897908" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1614261623073">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1614261623073" />
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1614261653097">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2" timestamp="1614374547319">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1614261653097" />
-    <state x="339" y="163" width="605" height="502" key="find.popup" timestamp="1613147634863">
+    <state x="240" y="138" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1614374547319" />
+    <state x="339" y="163" width="605" height="502" key="find.popup" timestamp="1614805754071">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="339" y="163" width="605" height="502" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1613147634863" />
+    <state x="339" y="163" width="605" height="502" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1614805754071" />
     <state x="339" y="163" width="605" height="502" key="find.popup/0.23.1280.726@0.23.1280.726" timestamp="1611975977189" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1607894384305">
       <screen x="0" y="0" width="1280" height="800" />
